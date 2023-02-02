@@ -2,5 +2,7 @@ SELECT DISTINCT title FROM movie JOIN movie_genre WHERE title LIKE "E%" AND (mov
 
 SELECT id AS id_film, title AS titre FROM movie;
 
+SELECT UPPER(title) AS titre_maj FROM movie WHERE 3 < id AND id < 51;
+
 
 
